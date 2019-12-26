@@ -1,0 +1,135 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "19a7824464a2978b17664a6bbaaaf46e",
+    "packages": [
+        {
+            "name": "alanblair/wpeasy-library",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://alanbalir@bitbucket.org/alanbalir/wpeasy-library.git",
+                "reference": "8d64aca5193879c50404948f1034d63f7d8c3118"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "WPEasyLibrary\\": "src/WPEasyLibrary/",
+                    "WPETests\\": "tests/WPETests/"
+                }
+            },
+            "license": [
+                "GPL-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Alan Blair",
+                    "email": "alan@wpeasy.net"
+                }
+            ],
+            "description": "Library used by WPEasy WordPress plugins",
+            "time": "2019-12-20T05:01:19+00:00"
+        },
+        {
+            "name": "gabrielelana/byte-units",
+            "version": "0.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/gabrielelana/byte-units.git",
+                "reference": "eaf7b998535578c7160be30b39904a8326bb9bb8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/gabrielelana/byte-units/zipball/eaf7b998535578c7160be30b39904a8326bb9bb8",
+                "reference": "eaf7b998535578c7160be30b39904a8326bb9bb8",
+                "shasum": ""
+            },
+            "require": {
+                "ext-bcmath": "*",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": ">=4.0,<6.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "ByteUnits\\": "src/ByteUnits"
+                },
+                "files": [
+                    "src/ByteUnits/functions.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Gabriele Lana",
+                    "email": "gabriele.lana@gmail.com"
+                }
+            ],
+            "description": "Library to parse, format and convert byte units",
+            "homepage": "https://github.com/gabrielelana/byte-units",
+            "keywords": [
+                "byte",
+                "convert",
+                "format",
+                "parse",
+                "size",
+                "units"
+            ],
+            "time": "2018-01-11T10:40:03+00:00"
+        },
+        {
+            "name": "philcook/gtmetrix",
+            "version": "1.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/philcook/php-gtmetrix.git",
+                "reference": "9a5c61449a0a42bc77188e752909608548cf292f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/philcook/php-gtmetrix/zipball/9a5c61449a0a42bc77188e752909608548cf292f",
+                "reference": "9a5c61449a0a42bc77188e752909608548cf292f",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "apigen/apigen": "~4.1",
+                "phing/phing": "~2.11",
+                "phpunit/phpunit": "~4.6"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Entrecore\\GTMetrixClient\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "GTMetrix API client for PHP",
+            "time": "2018-05-25T20:33:17+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "alanblair/wpeasy-library": 20
+    },
+    "prefer-stable": true,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

@@ -1,0 +1,49 @@
+<?php
+$nonce = wp_create_nonce( 'wpe_policy_get' )
+?>
+<div id="contentGenMetabox" class="wpe-admin-wrapper">
+    <p>Note: Set placeholders in<br/><a href="/wp-admin/admin.php?page=wpe_features">WPEAsy Features->Settings</a><br/>first.
+    </p>
+    <p>Click a button below to replace content with a policy template.</p>
+	<?php
+	foreach ( $templates as $template ): ?>
+        <a class="button button-secondary button-block wpe-policy-selector"
+           data-file="<?= $template['file'] ?>"><?= $template['name'] ?></a>
+	<?php endforeach; ?>
+</div>
+<script>
+    (function ($) {
+        let $contentHtmlButton = $('#content-html');
+        let $contentTinyMCEButton = $('#content-tmce');
+        let $metaboxConainer = $('#contentGenMetabox');
+
+        $('.wpe-policy-selector').on('click', function (e) {
+            e.preventDefault();
+            $metaboxConainer.append('<div class="progress" style="position: relative;"><div class="progress-bar progress-bar-striped indeterminate"></div></div>');
+
+            let $this = $(this);
+            let fileName = $this.data('file');
+
+            $.post(
+                {
+                    url: window.ajaxurl,
+                    data: {action: 'wpe_policy_get', nonce: "<?= $nonce ?>", fileName: fileName}
+                }
+            )
+                .done(function (result) {
+                    $contentHtmlButton.click();
+                    $('#content').val(result);
+                    $contentTinyMCEButton.click();
+                })
+                .fail(function (err) {
+                    alert(err.responseText)
+
+                })
+                .always(function () {
+                    $('.progress').remove();
+                    window.scrollTo(0, 0);
+                })
+
+        })
+    })(jQuery)
+</script>

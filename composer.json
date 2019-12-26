@@ -1,0 +1,30 @@
+{
+    "name": "alanblair/wpe-features",
+    "description": "WPEasy Features for WordPress",
+    "type": "project",
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "Alan Balir",
+            "email": "alan@wpeasy.net"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://alanbalir@bitbucket.org/alanbalir/wpeasy-library.git"
+        }
+    ],
+    "require": {
+        "alanblair/wpeasy-library": "master@dev",
+        "philcook/gtmetrix": "^1.0",
+        "gabrielelana/byte-units": "^0.5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "WPEasyFeatures\\": "src/WPEasyFeatures/"
+        }
+    }
+}

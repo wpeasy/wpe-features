@@ -1,0 +1,30 @@
+<div class="wpe-card-container mb-1 wpe-card-info">
+    <div class="wpe-card-header p-2">
+	    About this module
+    </div>
+	<div class="wpe-card-body p-2">
+		This module adds common variables to be used as shortcode placeholders.
+	</div>
+</div>
+<ul class="nav nav-tabs">
+	<li class="nav-item ">
+		<a class="nav-link active" data-toggle="tab" href="#placeholderShortcodes">Shortcodes</a>
+	</li>
+	<li class="nav-item ">
+		<a class="nav-link" data-toggle="tab" href="#placeholderContentGenerator">Content Generator</a>
+	</li>
+	<li class="nav-item ">
+		<a class="nav-link" data-toggle="tab" href="#placeholderSettings">Settings</a>
+	</li>
+</ul>
+<div class="tab-content container-fluid">
+	<div class="tab-pane  active" id="placeholderShortcodes">
+		<?php include __DIR__ . '/shortcodesView.php'?>
+	</div>
+	<div class="tab-pane  fade" id="placeholderContentGenerator">
+		<?php include __DIR__ . '/contentGeneratorView.phtml'?>
+	</div>
+	<div class="tab-pane  fade" id="placeholderSettings">
+		<?php include __DIR__ . '/settingsView.php'?>
+	</div>
+</div>

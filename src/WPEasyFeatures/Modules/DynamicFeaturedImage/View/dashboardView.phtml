@@ -1,0 +1,24 @@
+<div class="wpe-card-container mb-1 wpe-card-info">
+    <div class="wpe-card-header p-2">
+        About this module
+    </div>
+    <div class="wpe-card-body p-2">
+        This module works with the Dynamic Featured Images plugin. Each image added to a page/post as an extra image can be used as a slider or carousel.
+    </div>
+</div>
+<ul class="nav nav-tabs">
+    <li class="nav-item ">
+        <a class="nav-link active" data-toggle="tab" href="#dfiShortcodes">Shortcodes</a>
+    </li>
+    <li class="nav-item ">
+        <a class="nav-link" data-toggle="tab" href="#dfiSettings">Settings</a>
+    </li>
+</ul>
+<div class="tab-content container-fluid">
+    <div class="tab-pane  active" id="dfiShortcodes">
+		<?php include __DIR__ . '/shortcodesView.php'?>
+    </div>
+    <div class="tab-pane  " id="dfiSettings">
+		<?php include __DIR__ . '/settingsView.php'?>
+    </div>
+</div>
