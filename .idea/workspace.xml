@@ -2,16 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a56fc053-97a8-4a96-9fab-8e54d0f140ab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/composerJson.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
+  <component name="ComposerSettings" synchronizationState="DONT_SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
       <executable />
     </execution>
@@ -28,6 +29,10 @@
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.3">
     <include_path>
       <path value="C:/IntellijProjects/LIBRARIES/wordpress" />
+      <path value="$PROJECT_DIR$/vendor/philcook/gtmetrix" />
+      <path value="$PROJECT_DIR$/vendor/gabrielelana/byte-units" />
+      <path value="$PROJECT_DIR$/vendor/alanblair/wpeasy-library" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
     </include_path>
   </component>
   <component name="ProjectId" id="1VXTVbbCg1uKoH8bIiAIlj3ErpG" />
@@ -48,8 +53,9 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="javascript.nodejs.core.library.configured.version" value="10.16.3" />
+    <property name="javascript.nodejs.core.library.configured.version" value="10.16.0" />
     <property name="last_opened_file_path" value="C:/IntellijProjects/LIBRARIES/wordpress" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
   </component>
   <component name="RecentsManager">
@@ -80,6 +86,7 @@
       <option name="presentableId" value="Default" />
       <updated>1577398464214</updated>
       <workItem from="1577398465578" duration="699000" />
+      <workItem from="1577408688621" duration="158000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1577398724733</created>
@@ -101,10 +108,11 @@
     <option name="LAST_COMMIT_MESSAGE" value="First Commit" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="184" key="#Deployment" timestamp="1577399112854">
+    <state x="552" y="184" key="#Deployment" timestamp="1577408792087">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="552" y="184" key="#Deployment/0.0.1920.1050/-1920.9.1920.1050@0.0.1920.1050" timestamp="1577399112854" />
+    <state x="552" y="184" key="#Deployment/0.0.1920.1050@0.0.1920.1050" timestamp="1577408792087" />
     <state x="529" y="120" key="CommitChangelistDialog2" timestamp="1577398724010">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -117,10 +125,11 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="740" y="280" key="FileChooserDialogImpl/0.0.1920.1050/-1920.9.1920.1050@0.0.1920.1050" timestamp="1577399155649" />
-    <state x="461" y="168" key="SettingsEditor" timestamp="1577399164789">
+    <state x="461" y="168" key="SettingsEditor" timestamp="1577408775060">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="461" y="168" key="SettingsEditor/0.0.1920.1050/-1920.9.1920.1050@0.0.1920.1050" timestamp="1577399164789" />
+    <state x="461" y="168" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1577408775060" />
     <state x="552" y="259" key="Vcs.Push.Dialog.v2" timestamp="1577398729547">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -129,5 +138,9 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="741" y="256" key="ftp.server.browser/0.0.1920.1050/-1920.9.1920.1050@0.0.1920.1050" timestamp="1577398914663" />
+    <state x="816" y="419" key="publish.login" timestamp="1577408752138">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="816" y="419" key="publish.login/0.0.1920.1050@0.0.1920.1050" timestamp="1577408752138" />
   </component>
 </project>

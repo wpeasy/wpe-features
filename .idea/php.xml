@@ -3,6 +3,10 @@
   <component name="PhpIncludePathManager">
     <include_path>
       <path value="C:/IntellijProjects/LIBRARIES/wordpress" />
+      <path value="$PROJECT_DIR$/vendor/philcook/gtmetrix" />
+      <path value="$PROJECT_DIR$/vendor/gabrielelana/byte-units" />
+      <path value="$PROJECT_DIR$/vendor/alanblair/wpeasy-library" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.3" />
