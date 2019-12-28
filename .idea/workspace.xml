@@ -2,78 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a56fc053-97a8-4a96-9fab-8e54d0f140ab" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/autoload.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/autoload.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_files.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_files.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/.idea/$PRODUCT_WORKSPACE_FILE$" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/.idea/composerJson.xml" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/.idea/composerJson.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/DEV/.babelrc" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/DEV/.babelrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/DEV/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/DEV/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/DEV/config/default.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/DEV/config/default.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/DEV/config/production.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/DEV/config/production.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/DEV/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/DEV/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/DEV/src/admin/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/DEV/src/admin/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/DEV/src/admin/scss/_application.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/DEV/src/admin/scss/_application.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/DEV/src/admin/scss/_bootstrap.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/DEV/src/admin/scss/_bootstrap.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/DEV/src/admin/scss/_progress_bar_indeterminate.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/DEV/src/admin/scss/_progress_bar_indeterminate.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/DEV/src/admin/scss/_reboot_custom.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/DEV/src/admin/scss/_reboot_custom.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/DEV/src/admin/scss/_tables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/DEV/src/admin/scss/_tables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/DEV/src/admin/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/DEV/src/admin/scss/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/DEV/src/common/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/DEV/src/common/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/DEV/src/common/js/jquery-plugins/ajaxToHtmlContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/DEV/src/common/js/jquery-plugins/ajaxToHtmlContainer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/DEV/src/common/js/wpeUtils.js" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/DEV/src/common/js/wpeUtils.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/DEV/src/common/scss/_spinners.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/DEV/src/common/scss/_spinners.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/DEV/src/common/scss/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/DEV/src/common/scss/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/DEV/src/common/scss/_wpe.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/DEV/src/common/scss/_wpe.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/DEV/src/common/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/DEV/src/common/scss/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/DEV/src/frontend/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/DEV/src/frontend/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/DEV/src/frontend/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/DEV/src/frontend/scss/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/DEV/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/DEV/webpack.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/assets/css/wpe-lib-admin.style.css" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/assets/css/wpe-lib-admin.style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/assets/css/wpe-lib-common.style.css" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/assets/css/wpe-lib-common.style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/assets/css/wpe-lib-frontend.style.css" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/assets/css/wpe-lib-frontend.style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/assets/js/wpe-lib-vendor.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/assets/js/wpe-lib-vendor.bundle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/src/WPEasyLibrary/Exceptions/ModuleNotExistException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/src/WPEasyLibrary/Exceptions/ModuleNotExistException.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/src/WPEasyLibrary/Helpers/FileSystem/FileSystemHelper.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/src/WPEasyLibrary/Helpers/FileSystem/FileSystemHelper.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/src/WPEasyLibrary/Helpers/Utils/ArrayUtils.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/src/WPEasyLibrary/Helpers/Utils/ArrayUtils.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/src/WPEasyLibrary/Helpers/Utils/StringUtils.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/src/WPEasyLibrary/Helpers/Utils/StringUtils.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/src/WPEasyLibrary/Helpers/View/ViewHelper.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/src/WPEasyLibrary/Helpers/View/ViewHelper.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/src/WPEasyLibrary/Interfaces/IStaticInitialiser.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/src/WPEasyLibrary/Interfaces/IStaticInitialiser.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/src/WPEasyLibrary/Interfaces/IWordPressModule.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/src/WPEasyLibrary/Interfaces/IWordPressModule.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/src/WPEasyLibrary/Loaders/StaticModuleDirLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/src/WPEasyLibrary/Loaders/StaticModuleDirLoader.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/src/WPEasyLibrary/WordPress/ShortcodeTableRenderer.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/src/WPEasyLibrary/WordPress/ShortcodeTableRenderer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/src/WPEasyLibrary/WordPress/TimezoneHelper.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/src/WPEasyLibrary/WordPress/TimezoneHelper.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/src/WPEasyLibrary/WordPress/UpdateFromGithubController.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/src/WPEasyLibrary/WordPress/UpdateFromGithubController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/src/WPEasyLibrary/WordPress/View/commonMenuView.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/src/WPEasyLibrary/WordPress/View/commonMenuView.phtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/src/WPEasyLibrary/WordPress/View/shortcodeTable.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/src/WPEasyLibrary/WordPress/View/shortcodeTable.phtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/src/WPEasyLibrary/WordPress/WPE_ShortcodeTable.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/src/WPEasyLibrary/WordPress/WPE_ShortcodeTable.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/src/WPEasyLibrary/WordPress/WPEasyApplication.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/src/WPEasyLibrary/WordPress/WPEasyApplication.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/vendor/autoload.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/vendor/autoload.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/vendor/composer/ClassLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/vendor/composer/ClassLoader.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/vendor/composer/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/vendor/composer/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/vendor/composer/autoload_classmap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/vendor/composer/autoload_namespaces.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/vendor/composer/autoload_namespaces.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/vendor/composer/autoload_psr4.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/vendor/composer/autoload_real.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/vendor/composer/autoload_real.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/vendor/composer/autoload_static.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/vendor/composer/installed.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/wpeasy-library.iml" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/wpeasy-library.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wpe-features.php" beforeDir="false" afterPath="$PROJECT_DIR$/wpe-features.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,7 +90,7 @@
       <workItem from="1577496433772" duration="6000" />
       <workItem from="1577496944482" duration="294000" />
       <workItem from="1577497256742" duration="368000" />
-      <workItem from="1577569949014" duration="61000" />
+      <workItem from="1577569949014" duration="1247000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1577398724733</created>
@@ -183,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577497217008</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Updated WPE Library">
+      <created>1577570061223</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1577570061223</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,7 +131,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="First Commit" />
     <MESSAGE value="Added Composer vendor dir" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Composer vendor dir" />
+    <MESSAGE value="Updated WPE Library" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated WPE Library" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="184" key="#Deployment" timestamp="1577570018963">
@@ -206,10 +144,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="690" y="281" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1577497472211" />
-    <state x="529" y="120" key="CommitChangelistDialog2" timestamp="1577497213664">
+    <state x="529" y="120" key="CommitChangelistDialog2" timestamp="1577570060440">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="529" y="120" key="CommitChangelistDialog2/0.0.1920.1050/-1920.9.1920.1050@0.0.1920.1050" timestamp="1577398724010" />
+    <state x="529" y="120" key="CommitChangelistDialog2/0.0.1920.1050/-1920.9.1920.1050@0.0.1920.1050" timestamp="1577570060440" />
     <state x="529" y="120" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1577497213664" />
     <state x="-1808" y="100" width="1736" height="866" key="DirDiffDialog" timestamp="1577399165169">
       <screen x="-1920" y="9" width="1920" height="1050" />
@@ -224,10 +162,10 @@
     </state>
     <state x="461" y="168" key="SettingsEditor/0.0.1920.1050/-1920.9.1920.1050@0.0.1920.1050" timestamp="1577570009485" />
     <state x="461" y="168" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1577497277448" />
-    <state x="552" y="259" key="Vcs.Push.Dialog.v2" timestamp="1577408901280">
+    <state x="552" y="259" key="Vcs.Push.Dialog.v2" timestamp="1577570062881">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="259" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1920.9.1920.1050@0.0.1920.1050" timestamp="1577398729547" />
+    <state x="552" y="259" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1920.9.1920.1050@0.0.1920.1050" timestamp="1577570062881" />
     <state x="552" y="259" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1577408901280" />
     <state x="656" y="257" width="607" height="536" key="find.popup" timestamp="1577497582601">
       <screen x="0" y="0" width="1920" height="1050" />
