@@ -9,16 +9,15 @@
             "email": "alan@wpeasy.net"
         }
     ],
-    "minimum-stability": "dev",
-    "prefer-stable": true,
+
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://alanbalir@bitbucket.org/alanbalir/wpeasy-library.git"
+            "url": "https://github.com/wpeasy/wpeasy-library.git"
         }
     ],
     "require": {
-        "alanblair/wpeasy-library": "master@dev",
+        "wpeasy/wpeasy-library": "1.0.*",
         "philcook/gtmetrix": "^1.0",
         "gabrielelana/byte-units": "^0.5.0"
     },
