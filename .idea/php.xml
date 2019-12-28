@@ -5,7 +5,6 @@
       <path value="C:/IntellijProjects/LIBRARIES/wordpress" />
       <path value="$PROJECT_DIR$/vendor/philcook/gtmetrix" />
       <path value="$PROJECT_DIR$/vendor/gabrielelana/byte-units" />
-      <path value="$PROJECT_DIR$/vendor/alanblair/wpeasy-library" />
       <path value="$PROJECT_DIR$/vendor/composer" />
       <path value="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library" />
     </include_path>
