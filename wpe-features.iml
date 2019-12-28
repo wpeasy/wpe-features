@@ -8,6 +8,7 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/composer" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/gabrielelana/byte-units" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/philcook/gtmetrix" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/wpeasy/wpeasy-library" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

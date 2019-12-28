@@ -2,8 +2,132 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a56fc053-97a8-4a96-9fab-8e54d0f140ab" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/vendor/autoload.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_files.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabrielelana/byte-units/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabrielelana/byte-units/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabrielelana/byte-units/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabrielelana/byte-units/phpunit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabrielelana/byte-units/src/ByteUnits/Binary.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabrielelana/byte-units/src/ByteUnits/ConversionException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabrielelana/byte-units/src/ByteUnits/Formatter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabrielelana/byte-units/src/ByteUnits/Metric.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabrielelana/byte-units/src/ByteUnits/NegativeBytesException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabrielelana/byte-units/src/ByteUnits/ParseException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabrielelana/byte-units/src/ByteUnits/Parser.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabrielelana/byte-units/src/ByteUnits/PowerScale.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabrielelana/byte-units/src/ByteUnits/System.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabrielelana/byte-units/src/ByteUnits/functions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabrielelana/byte-units/tests/ByteUnits/ArithmeticTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabrielelana/byte-units/tests/ByteUnits/BinarySystemTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabrielelana/byte-units/tests/ByteUnits/BoxingTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabrielelana/byte-units/tests/ByteUnits/CompareTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabrielelana/byte-units/tests/ByteUnits/ConversionBetweenSystemsTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabrielelana/byte-units/tests/ByteUnits/FormatInBinarySystemTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabrielelana/byte-units/tests/ByteUnits/FormatInMetricSystemTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabrielelana/byte-units/tests/ByteUnits/MetricSystemTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabrielelana/byte-units/tests/ByteUnits/ParseTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabrielelana/byte-units/tests/bootstrap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/philcook/gtmetrix/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/philcook/gtmetrix/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/philcook/gtmetrix/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/philcook/gtmetrix/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/philcook/gtmetrix/assets/entrecore.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/philcook/gtmetrix/assets/opsbears.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/philcook/gtmetrix/build.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/philcook/gtmetrix/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/philcook/gtmetrix/data/ca-bundle.crt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/philcook/gtmetrix/phpunit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/philcook/gtmetrix/src/GTMetrixBrowser.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/philcook/gtmetrix/src/GTMetrixClient.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/philcook/gtmetrix/src/GTMetrixConfigurationException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/philcook/gtmetrix/src/GTMetrixException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/philcook/gtmetrix/src/GTMetrixLocation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/philcook/gtmetrix/src/GTMetrixTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/philcook/gtmetrix/tests/AbstractGTMetrixTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/philcook/gtmetrix/tests/GTMetrixFunctionalTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/.idea/composerJson.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/DEV/.babelrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/DEV/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/DEV/config/default.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/DEV/config/production.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/DEV/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/DEV/src/admin/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/DEV/src/admin/scss/_application.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/DEV/src/admin/scss/_bootstrap.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/DEV/src/admin/scss/_progress_bar_indeterminate.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/DEV/src/admin/scss/_reboot_custom.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/DEV/src/admin/scss/_tables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/DEV/src/admin/scss/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/DEV/src/common/img/ajax-loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/DEV/src/common/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/DEV/src/common/js/jquery-plugins/ajaxToHtmlContainer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/DEV/src/common/js/wpeUtils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/DEV/src/common/scss/_spinners.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/DEV/src/common/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/DEV/src/common/scss/_wpe.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/DEV/src/common/scss/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/DEV/src/frontend/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/DEV/src/frontend/scss/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/DEV/webpack.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/assets/css/wpe-lib-admin.style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/assets/css/wpe-lib-common.style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/assets/css/wpe-lib-frontend.style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/assets/js/wpe-lib-admin.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/assets/js/wpe-lib-common.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/assets/js/wpe-lib-frontend.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/assets/js/wpe-lib-vendor.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/src/WPEasyLibrary/Exceptions/ModuleNotExistException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/src/WPEasyLibrary/Helpers/FileSystem/FileSystemHelper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/src/WPEasyLibrary/Helpers/Utils/ArrayUtils.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/src/WPEasyLibrary/Helpers/Utils/StringUtils.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/src/WPEasyLibrary/Helpers/View/ViewHelper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/src/WPEasyLibrary/Interfaces/IStaticInitialiser.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/src/WPEasyLibrary/Interfaces/IWordPressModule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/src/WPEasyLibrary/Loaders/StaticModuleDirLoader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/src/WPEasyLibrary/WordPress/ShortcodeTableRenderer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/src/WPEasyLibrary/WordPress/TimezoneHelper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/src/WPEasyLibrary/WordPress/UpdateFromGithubController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/src/WPEasyLibrary/WordPress/View/commonMenuView.phtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/src/WPEasyLibrary/WordPress/View/shortcodeTable.phtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/src/WPEasyLibrary/WordPress/WPE_ShortcodeTable.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/src/WPEasyLibrary/WordPress/WPEasyApplication.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/vendor/autoload.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/vendor/composer/ClassLoader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/vendor/composer/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/vendor/composer/autoload_namespaces.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/vendor/composer/autoload_real.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/vendor/composer/autoload_static.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/vendor/composer/installed.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/wpeasy-library.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application.config.php" beforeDir="false" afterPath="$PROJECT_DIR$/application.config.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WPEasyFeatures/Application/Controller/ApplicationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/WPEasyFeatures/Application/Controller/ApplicationController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WPEasyFeatures/Application/Controller/Updater.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wpe-features.iml" beforeDir="false" afterPath="$PROJECT_DIR$/wpe-features.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wpe-features.php" beforeDir="false" afterPath="$PROJECT_DIR$/wpe-features.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +156,7 @@
       <path value="$PROJECT_DIR$/vendor/gabrielelana/byte-units" />
       <path value="$PROJECT_DIR$/vendor/alanblair/wpeasy-library" />
       <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library" />
     </include_path>
   </component>
   <component name="ProjectId" id="1VXTVbbCg1uKoH8bIiAIlj3ErpG" />
@@ -88,7 +213,8 @@
       <workItem from="1577408688621" duration="623000" />
       <workItem from="1577409643449" duration="1679000" />
       <workItem from="1577496433772" duration="6000" />
-      <workItem from="1577496944482" duration="69000" />
+      <workItem from="1577496944482" duration="294000" />
+      <workItem from="1577497256742" duration="368000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1577398724733</created>
@@ -104,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577408898890</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added Composer vendor dir">
+      <created>1577497217008</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1577497217008</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,11 +256,15 @@
     </state>
     <state x="552" y="184" key="#Deployment/0.0.1920.1050/-1920.9.1920.1050@0.0.1920.1050" timestamp="1577399112854" />
     <state x="552" y="184" key="#Deployment/0.0.1920.1050@0.0.1920.1050" timestamp="1577408792087" />
-    <state x="529" y="120" key="CommitChangelistDialog2" timestamp="1577408897547">
+    <state x="690" y="281" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1577497472211">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="690" y="281" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1577497472211" />
+    <state x="529" y="120" key="CommitChangelistDialog2" timestamp="1577497213664">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="529" y="120" key="CommitChangelistDialog2/0.0.1920.1050/-1920.9.1920.1050@0.0.1920.1050" timestamp="1577398724010" />
-    <state x="529" y="120" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1577408897547" />
+    <state x="529" y="120" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1577497213664" />
     <state x="-1808" y="100" width="1736" height="866" key="DirDiffDialog" timestamp="1577399165169">
       <screen x="-1920" y="9" width="1920" height="1050" />
     </state>
@@ -136,16 +273,20 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="740" y="280" key="FileChooserDialogImpl/0.0.1920.1050/-1920.9.1920.1050@0.0.1920.1050" timestamp="1577399155649" />
-    <state x="461" y="168" key="SettingsEditor" timestamp="1577408775060">
+    <state x="461" y="168" key="SettingsEditor" timestamp="1577497277448">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="461" y="168" key="SettingsEditor/0.0.1920.1050/-1920.9.1920.1050@0.0.1920.1050" timestamp="1577399164789" />
-    <state x="461" y="168" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1577408775060" />
+    <state x="461" y="168" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1577497277448" />
     <state x="552" y="259" key="Vcs.Push.Dialog.v2" timestamp="1577408901280">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="552" y="259" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1920.9.1920.1050@0.0.1920.1050" timestamp="1577398729547" />
     <state x="552" y="259" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1577408901280" />
+    <state x="656" y="257" width="607" height="536" key="find.popup" timestamp="1577497582601">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="656" y="257" width="607" height="536" key="find.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1577497582601" />
     <state x="741" y="256" key="ftp.server.browser" timestamp="1577398914663">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -155,4 +296,5 @@
     </state>
     <state x="816" y="419" key="publish.login/0.0.1920.1050@0.0.1920.1050" timestamp="1577408752138" />
   </component>
+  <component name="WordPressConfiguration" doNotAskAgain="true" />
 </project>

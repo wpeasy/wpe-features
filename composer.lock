@@ -4,35 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "19a7824464a2978b17664a6bbaaaf46e",
+    "content-hash": "09cde262fd1ceb3b0548640ab5a0bd57",
     "packages": [
-        {
-            "name": "alanblair/wpeasy-library",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://alanbalir@bitbucket.org/alanbalir/wpeasy-library.git",
-                "reference": "8d64aca5193879c50404948f1034d63f7d8c3118"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "WPEasyLibrary\\": "src/WPEasyLibrary/",
-                    "WPETests\\": "tests/WPETests/"
-                }
-            },
-            "license": [
-                "GPL-2.0"
-            ],
-            "authors": [
-                {
-                    "name": "Alan Blair",
-                    "email": "alan@wpeasy.net"
-                }
-            ],
-            "description": "Library used by WPEasy WordPress plugins",
-            "time": "2019-12-20T05:01:19+00:00"
-        },
         {
             "name": "gabrielelana/byte-units",
             "version": "0.5.0",
@@ -120,15 +93,49 @@
             ],
             "description": "GTMetrix API client for PHP",
             "time": "2018-05-25T20:33:17+00:00"
+        },
+        {
+            "name": "wpeasy/wpeasy-library",
+            "version": "v1.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wpeasy/wpeasy-library.git",
+                "reference": "ad0df78eb17b87aae17b3fddd6b0b08e0ea08ebc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wpeasy/wpeasy-library/zipball/ad0df78eb17b87aae17b3fddd6b0b08e0ea08ebc",
+                "reference": "ad0df78eb17b87aae17b3fddd6b0b08e0ea08ebc",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "WPEasyLibrary\\": "src/WPEasyLibrary/"
+                }
+            },
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Alan Blair",
+                    "email": "alan@wpeasy.net"
+                }
+            ],
+            "description": "Library used by WPEasy WordPress plugins",
+            "support": {
+                "source": "https://github.com/wpeasy/wpeasy-library/tree/v1.0.4",
+                "issues": "https://github.com/wpeasy/wpeasy-library/issues"
+            },
+            "time": "2019-12-27T23:17:12+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
-    "minimum-stability": "dev",
-    "stability-flags": {
-        "alanblair/wpeasy-library": 20
-    },
-    "prefer-stable": true,
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": []

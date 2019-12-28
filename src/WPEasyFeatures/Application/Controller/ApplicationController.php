@@ -3,7 +3,6 @@
 
 namespace WPEasyFeatures\Application\Controller;
 
-
 use WPEasyFeatures\Application\Model\ApplicationModel;
 use WPEasyLibrary\Helpers\View\ViewHelper;
 use WPEasyLibrary\WordPress\WPEasyApplication;
@@ -18,9 +17,6 @@ class ApplicationController {
 		}
 		self::$_init  = true;
 		ApplicationModel::$config = $config;
-
-		//Initialise plugin updater
-		new Updater($config['currentVersion'], $config['updateURL'], $config['pluginSlug']);
 
 		add_action( 'admin_menu', [ __CLASS__, 'admin_menu' ] );
 		add_action( 'wp_enqueue_scripts', [ __CLASS__, 'wp_enqueue_scripts' ] );

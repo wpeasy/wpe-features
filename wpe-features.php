@@ -11,9 +11,15 @@
 
 namespace WPEasyFeaturesPlugin;
 
+use WPEasyLibrary\WordPress\UpdateFromGithubController;
 use WPEasyLibrary\WordPress\WPEasyApplication;
 
 require_once __DIR__ . '/vendor/autoload.php';
+
+if ( is_admin() ) {
+    new UpdateFromGithubController( __FILE__, 'wpeasy', "wpe-features" );
+
+}
 
 $config = require __DIR__ . '/application.config.php';
 WPEasyApplication::init($config);

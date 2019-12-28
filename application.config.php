@@ -3,8 +3,6 @@ $pluginUrl = plugin_dir_url( __FILE__ );
 
 return [
 	'isDebug'           => defined( 'WP_DEBUG' && WP_DEBUG === true ),
-	'currentVersion'    => '1.0.0',
-	'updateURL'         => 'https://www.wpeasy.net/ext/plugins/wpe-features/latest/',
 	'pluginSlug'        => basename( __DIR__ ) . '/' . basename( __DIR__ ) . '.php',
 	'pluginController'  => '\WPEasyFeatures\Application\Controller\ApplicationController',
 	'pluginName'        => 'WPEasy Features',
