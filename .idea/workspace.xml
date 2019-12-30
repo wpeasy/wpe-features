@@ -91,7 +91,8 @@
       <workItem from="1577496944482" duration="294000" />
       <workItem from="1577497256742" duration="368000" />
       <workItem from="1577569949014" duration="1270000" />
-      <workItem from="1577664414756" duration="7000" />
+      <workItem from="1577664414756" duration="610000" />
+      <workItem from="1577677853446" duration="20000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1577398724733</created>
@@ -128,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577576781462</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Updated WPE Library">
+      <created>1577664428679</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1577664428679</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,10 +160,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="690" y="281" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1577497472211" />
-    <state x="529" y="120" key="CommitChangelistDialog2" timestamp="1577576780742">
+    <state x="529" y="120" key="CommitChangelistDialog2" timestamp="1577664427983">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="529" y="120" key="CommitChangelistDialog2/0.0.1920.1050/-1920.9.1920.1050@0.0.1920.1050" timestamp="1577576780742" />
+    <state x="529" y="120" key="CommitChangelistDialog2/0.0.1920.1050/-1920.9.1920.1050@0.0.1920.1050" timestamp="1577664427983" />
     <state x="529" y="120" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1577497213664" />
     <state x="-1808" y="100" width="1736" height="866" key="DirDiffDialog" timestamp="1577399165169">
       <screen x="-1920" y="9" width="1920" height="1050" />
@@ -170,10 +178,10 @@
     </state>
     <state x="461" y="168" key="SettingsEditor/0.0.1920.1050/-1920.9.1920.1050@0.0.1920.1050" timestamp="1577570009485" />
     <state x="461" y="168" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1577497277448" />
-    <state x="552" y="259" key="Vcs.Push.Dialog.v2" timestamp="1577576783894">
+    <state x="552" y="259" key="Vcs.Push.Dialog.v2" timestamp="1577664430273">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="259" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1920.9.1920.1050@0.0.1920.1050" timestamp="1577576783894" />
+    <state x="552" y="259" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1920.9.1920.1050@0.0.1920.1050" timestamp="1577664430273" />
     <state x="552" y="259" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1577408901280" />
     <state x="656" y="257" width="607" height="536" key="find.popup" timestamp="1577497582601">
       <screen x="0" y="0" width="1920" height="1050" />
