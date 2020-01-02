@@ -6,6 +6,5 @@
         $(document).ready( function () {
             $('.wpe_clickToCopy').clickToCopy({logEvents: true});
         })
-
     })(jQuery);
 </script>
