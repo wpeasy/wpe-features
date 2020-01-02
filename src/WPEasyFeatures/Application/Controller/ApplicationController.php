@@ -36,10 +36,10 @@ class ApplicationController {
 	private static function _common_enqueue_scripts()
 	{
 		$assetsURL = ApplicationModel::$config['assetsURL'];
-		wp_register_script('wpe-features-vendor', $assetsURL . 'js/vendor.bundle.js',['jquery'], false, true );
-		wp_enqueue_script('wpe-features-common', $assetsURL . 'js/wpe-common.bundle.js', ['wpe-features-vendor'], false, true);
+		//wp_register_script('wpe-features-vendor', $assetsURL . 'js/vendor.bundle.js',['jquery'], false, true );
+		//wp_enqueue_script('wpe-features-common', $assetsURL . 'js/wpe-common.bundle.js', ['wpe-features-vendor'], false, true);
 
-		wp_enqueue_style('wpe-features-common', $assetsURL . 'css/wpe-common.style.css');
+		//wp_enqueue_style('wpe-features-common', $assetsURL . 'css/wpe-common.style.css');
 	}
 
 

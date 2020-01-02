@@ -2,13 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a56fc053-97a8-4a96-9fab-8e54d0f140ab" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/DEV/src/common/js/jquery-plugins/clickToCopy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/DEV/src/common/scss/_click-to-copy.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WPEasyFeatures/Application/Controller/ApplicationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/WPEasyFeatures/Application/Controller/ApplicationController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WPEasyFeatures/Modules/Placeholders/View/shortcodesView.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/WPEasyFeatures/Modules/Placeholders/View/shortcodesView.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/DEV/src/admin/scss/_bootstrap.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/DEV/src/admin/scss/_bootstrap.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/DEV/src/common/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/DEV/src/common/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/DEV/src/common/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/DEV/src/common/scss/style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/assets/css/wpe-lib-admin.style.css" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/assets/css/wpe-lib-admin.style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/assets/css/wpe-lib-common.style.css" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/assets/css/wpe-lib-common.style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/assets/js/wpe-lib-common.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/assets/js/wpe-lib-common.bundle.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/src/WPEasyLibrary/WordPress/WPEasyApplication.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/src/WPEasyLibrary/WordPress/WPEasyApplication.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wpe-features.php" beforeDir="false" afterPath="$PROJECT_DIR$/wpe-features.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,12 +68,14 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="10.16.3" />
-    <property name="last_opened_file_path" value="C:/IntellijProjects/LIBRARIES/wordpress" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/assets/js" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\alan.blair\IdeaProjects\WordPressPlugins\wpe-features\vendor\wpeasy\wpeasy-library\assets\js" />
+      <recent name="C:\Users\alan.blair\IdeaProjects\WordPressPlugins\wpe-features\vendor\wpeasy\wpeasy-library\assets\css" />
       <recent name="C:\Users\alanblair\IdeaProjects\WordPressPlugins\wpe-features" />
     </key>
   </component>
@@ -196,11 +208,11 @@
     </state>
     <state x="552" y="259" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1920.9.1920.1050@0.0.1920.1050" timestamp="1577920104515" />
     <state x="552" y="259" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1577408901280" />
-    <state x="656" y="257" width="607" height="536" key="find.popup" timestamp="1577918733569">
+    <state x="656" y="257" width="607" height="536" key="find.popup" timestamp="1577922712245">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="656" y="257" width="607" height="536" key="find.popup/0.0.1920.1050/-1920.9.1920.1050@0.0.1920.1050" timestamp="1577918733569" />
-    <state x="656" y="257" width="607" height="536" key="find.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1577497582601" />
+    <state x="656" y="257" width="607" height="536" key="find.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1577922712245" />
     <state x="741" y="256" key="ftp.server.browser" timestamp="1577398914663">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
