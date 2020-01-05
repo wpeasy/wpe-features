@@ -1,2 +1,2 @@
 import 'slick-carousel-latest'
-console.info('LOADED SLICK')
+//console.info('LOADED SLICK')

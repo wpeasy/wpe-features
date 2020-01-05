@@ -22,23 +22,24 @@ if ($atts['show_thumbs'] === 'true') {
 $slickJson = json_encode($slickAtts);
 
 ?>
-<div class="<?= $atts['container_class'] . ' ' . $uid ?> wpe-slick-slider " data-slick='<?= $slickJson ?>'>
-    <? foreach ($images as $image): ?>
-        <img data-lazy="<?= $image['full'] ?>"/>
-    <? endforeach; ?>
-</div>
-
-<!-- Thumbnail Nav -->
-<?php if ($atts['show_thumbs'] === 'true'): ?>
-    <div class="wpe-slick-thumbs <?= $uid . '_nav' ?> wpe-slick-slider"
-         data-slick='{"asNavFor":".<?= $uid ?>","focusOnSelect":true,"centerMode":true,"adaptiveHeight":true,"autoplay":false,"arrows":true,"rows":1,"slidesPerRow":1,"slidesToShow":6,"slidesToScroll":1,"speed":300,"swipe":true,"swipeToSlide":true,"touchMove":true}'>
+<div class="wpe">
+    <div class="invisible <?= $atts['container_class'] . ' ' . $uid ?> wpe-slick-slider " data-slick='<?= $slickJson ?>'>
         <? foreach ($images as $image): ?>
-            <img src="<?= $image['thumb'] ?>"/>
+            <img data-lazy="<?= $image['full'] ?>"/>
         <? endforeach; ?>
     </div>
 
-<?php endif; ?>
+    <!-- Thumbnail Nav -->
+    <?php if ($atts['show_thumbs'] === 'true'): ?>
+        <div class="invisible wpe-slick-thumbs <?= $uid . '_nav' ?> wpe-slick-slider"
+             data-slick='{"asNavFor":".<?= $uid ?>","lazyLoad":"progressive","focusOnSelect":true,"centerMode":true,"adaptiveHeight":true,"autoplay":false,"arrows":true,"rows":1,"slidesPerRow":1,"slidesToShow":6,"slidesToScroll":1,"speed":300,"swipe":true,"swipeToSlide":true,"touchMove":true}'>
+            <? foreach ($images as $image): ?>
+                <img src="<?= $image['thumb'] ?>"/>
+            <? endforeach; ?>
+        </div>
 
+    <?php endif; ?>
+</div>
 <script>
     (function ($) {
         let $wpeSliders;
@@ -49,7 +50,10 @@ $slickJson = json_encode($slickAtts);
         //Is in common.bundle.js loaded in the footer.
         $(document).ready(function () {
             $wpeSliders = $(selector).not('.slick-initialized');
-            $wpeSliders.slick();
+            $wpeSliders.on('init', function () {
+                console.log(this);
+                $(this).removeClass('invisible');
+            }).slick();
 
             //@todo css to hide sliders until JS runs
         });

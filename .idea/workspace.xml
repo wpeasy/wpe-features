@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2d5ecb07-c587-405d-9f1c-311a48385d66" name="Default Changelist" comment="">
+    <list default="true" id="a56fc053-97a8-4a96-9fab-8e54d0f140ab" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/src/common/js/jQueryPlugins/slick.js" beforeDir="false" afterPath="$PROJECT_DIR$/dev/src/common/js/jQueryPlugins/slick.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/WPEasyFeatures/Modules/DynamicFeaturedImage/View/sliderView.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/WPEasyFeatures/Modules/DynamicFeaturedImage/View/sliderView.phtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/assets/css/wpe-lib-frontend.style.css" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/assets/css/wpe-lib-frontend.style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,12 +56,13 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="10.16.0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/assets/js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/assets/css" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\alanblair\IdeaProjects\WordPressPlugins\wpe-features\vendor\wpeasy\wpeasy-library\assets\css" />
       <recent name="C:\Users\alan.blair\IdeaProjects\WordPressPlugins\wpe-features\vendor\wpeasy\wpeasy-library\assets\js" />
       <recent name="C:\Users\alan.blair\IdeaProjects\WordPressPlugins\wpe-features\vendor\wpeasy\wpeasy-library\assets\css" />
       <recent name="C:\Users\alanblair\IdeaProjects\WordPressPlugins\wpe-features" />
