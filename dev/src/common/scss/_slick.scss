@@ -1,0 +1,37 @@
+$slick-font-path: "../../../node_modules/slick-carousel-latest/slick/fonts/" !default;
+$slick-font-family: "slick" !default;
+$slick-loader-path: "../../../node_modules/slick-carousel-latest/slick/" !default;
+$slick-arrow-color: black !default;
+@import "~slick-carousel-latest/slick/slick";
+@import "~slick-carousel-latest/slick/slick-theme.scss";
+
+.wpe-slick-slider{
+  //Some themes mess up .entry-content sections
+  margin: 0 !important;
+  padding: 0 !important;
+  background-color: #f9f9f9;
+
+  img{
+    margin:0;
+    padding:0;
+  }
+
+  .slick-slide{
+    line-height: 1;
+    div{
+      line-height: 0;
+    }
+  }
+}
+
+.wpe-slick-thumbs{
+  .slick-slide{
+    cursor: pointer;
+    &:hover{
+      opacity: 1 !important;
+    }
+    &:not(.slick-current){
+      opacity: .4;
+    }
+  }
+}

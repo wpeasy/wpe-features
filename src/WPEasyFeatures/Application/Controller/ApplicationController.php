@@ -25,21 +25,35 @@ class ApplicationController {
 
 	static function wp_enqueue_scripts()
 	{
+        $assetsURL = ApplicationModel::$config['assetsURL'];
 		self::_common_enqueue_scripts();
+        wp_register_script('wpe-features-frontend', $assetsURL . 'js/frontend.bundle.js',['wpe-features-common'], false, true );
+
+        wp_register_style('wpe-features-frontend', $assetsURL . 'css/frontend.style.css', ['wpe-features-common'] );
+        //Enqueue on evey page
+        wp_enqueue_style('wpe-features-frontend');
 	}
 
 	static function admin_enqueue_scripts()
 	{
-		self::_common_enqueue_scripts();
+        $assetsURL = ApplicationModel::$config['assetsURL'];
+        self::_common_enqueue_scripts();
+        wp_register_script('wpe-features-admin', $assetsURL . 'js/admin.bundle.js',['wpe-features-common'], false, true );
+
+        wp_register_style('wpe-features-admin', $assetsURL . 'css/admin.style.css', ['wpe-features-common']);
+        //Enqueue on evey page
+        wp_enqueue_style('wpe-features-admin');
 	}
 
 	private static function _common_enqueue_scripts()
 	{
 		$assetsURL = ApplicationModel::$config['assetsURL'];
-		//wp_register_script('wpe-features-vendor', $assetsURL . 'js/vendor.bundle.js',['jquery'], false, true );
-		//wp_enqueue_script('wpe-features-common', $assetsURL . 'js/wpe-common.bundle.js', ['wpe-features-vendor'], false, true);
+		wp_register_script('wpe-features-vendor', $assetsURL . 'js/vendor.bundle.js',['jquery'], false, true );
+		wp_register_script('wpe-features-common', $assetsURL . 'js/common.bundle.js', ['wpe-features-vendor'], false, true);
 
-		//wp_enqueue_style('wpe-features-common', $assetsURL . 'css/wpe-common.style.css');
+		//Loads on every page so css is at top
+        wp_register_style('wpe-features-vendor', $assetsURL . 'css/vendor.style.css');
+        wp_register_style('wpe-features-common', $assetsURL . 'css/common.style.css', ['wpe-features-vendor']);
 	}
 
 

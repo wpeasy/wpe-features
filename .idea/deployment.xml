@@ -12,6 +12,7 @@
             <excludedPath local="true" path="$PROJECT_DIR$/composer.json" />
             <excludedPath local="true" path="$PROJECT_DIR$/composer.lock" />
             <excludedPath local="true" path="$PROJECT_DIR$/wpe-features.iml" />
+            <excludedPath local="true" path="$PROJECT_DIR$/dev" />
           </excludedPaths>
         </serverdata>
       </paths>
