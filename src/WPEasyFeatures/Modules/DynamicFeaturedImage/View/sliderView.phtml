@@ -5,17 +5,17 @@ $uid = uniqid('wpe-slick-');
 //WordPress shortcodes only accept attribute names with the _ separator, will not accept camel case. Slick attributes are CamelCase..
 //
 $slickAtts = [];
-if(!isset($atts['show_thumbs'])) $atts['show_thumbs'] = 'false';
+if (!isset($atts['show_thumbs'])) $atts['show_thumbs'] = 'false';
 
-foreach($atts as $att=>$val){
+foreach ($atts as $att => $val) {
     //only atts that have been set
     //Converting Sting boolean and INT values to proper data types.
-    if($val !== "" ){
+    if ($val !== "") {
         $slickAtts[\WPEasyLibrary\Helpers\Utils\StringUtils::dashToCamelCase($att)] = \WPEasyLibrary\Helpers\Utils\StringUtils::stringToDataType($val);
     }
 }
 
-if($atts['show_thumbs'] === 'true'){
+if ($atts['show_thumbs'] === 'true') {
     $slickAtts['asNavFor'] = '.' . $uid . '_nav';
 }
 
@@ -23,16 +23,17 @@ $slickJson = json_encode($slickAtts);
 
 ?>
 <div class="<?= $atts['container_class'] . ' ' . $uid ?> wpe-slick-slider " data-slick='<?= $slickJson ?>'>
-        <? foreach ($images as $image): ?>
-            <img data-lazy="<?= $image['full'] ?>" />
-        <? endforeach; ?>
+    <? foreach ($images as $image): ?>
+        <img data-lazy="<?= $image['full'] ?>"/>
+    <? endforeach; ?>
 </div>
 
 <!-- Thumbnail Nav -->
-<?php if($atts['show_thumbs'] === 'true'): ?>
-    <div class="wpe-slick-thumbs <?= $uid . '_nav' ?> wpe-slick-slider" data-slick='{"asNavFor":".<?= $uid ?>","focusOnSelect":true,"centerMode":true,"adaptiveHeight":true,"autoplay":false,"arrows":true,"rows":1,"slidesPerRow":1,"slidesToShow":6,"slidesToScroll":1,"speed":300,"swipe":true,"swipeToSlide":true,"touchMove":true}'>
+<?php if ($atts['show_thumbs'] === 'true'): ?>
+    <div class="wpe-slick-thumbs <?= $uid . '_nav' ?> wpe-slick-slider"
+         data-slick='{"asNavFor":".<?= $uid ?>","focusOnSelect":true,"centerMode":true,"adaptiveHeight":true,"autoplay":false,"arrows":true,"rows":1,"slidesPerRow":1,"slidesToShow":6,"slidesToScroll":1,"speed":300,"swipe":true,"swipeToSlide":true,"touchMove":true}'>
         <? foreach ($images as $image): ?>
-            <img src="<?= $image['thumb'] ?>" />
+            <img src="<?= $image['thumb'] ?>"/>
         <? endforeach; ?>
     </div>
 
@@ -40,8 +41,14 @@ $slickJson = json_encode($slickAtts);
 
 <script>
     (function ($) {
+        let $wpeSliders;
+        let uuid = '<?= $uid ?>';
+        let selector = '.' + uuid + ', .' + uuid + '_nav';
+
+        //Need to wait for slick to be available.
         $(document).ready(function () {
-            $('.wpe-slick-slider').not('.slick-initialized').slick();
-        })
+            $wpeSliders = $(selector).not('.slick-initialized');
+            $wpeSliders.slick();
+        });
     })(jQuery)
 </script>
