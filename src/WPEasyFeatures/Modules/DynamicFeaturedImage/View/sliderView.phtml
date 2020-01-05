@@ -46,10 +46,12 @@ $slickJson = json_encode($slickAtts);
         let selector = '.' + uuid + ', .' + uuid + '_nav';
 
         //Need to wait for slick to be available.
-        //I sin common.bundle.js loaded in the footer.
+        //Is in common.bundle.js loaded in the footer.
         $(document).ready(function () {
             $wpeSliders = $(selector).not('.slick-initialized');
             $wpeSliders.slick();
+
+            //@todo css to hide sliders until JS runs
         });
     })(jQuery)
 </script>

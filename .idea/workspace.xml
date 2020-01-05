@@ -97,7 +97,7 @@
       <workItem from="1577677853446" duration="1031000" />
       <workItem from="1577829834444" duration="3309000" />
       <workItem from="1577927129274" duration="30000" />
-      <workItem from="1578192191019" duration="1476000" />
+      <workItem from="1578192191019" duration="1554000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1577398724733</created>
@@ -162,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578203200809</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Working on Slick sliders">
+      <created>1578203291828</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1578203291828</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -188,11 +195,11 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="690" y="281" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1577497472211" />
-    <state x="529" y="120" key="CommitChangelistDialog2" timestamp="1578203200114">
+    <state x="529" y="120" key="CommitChangelistDialog2" timestamp="1578203290905">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="529" y="120" key="CommitChangelistDialog2/0.0.1920.1050/-1920.9.1920.1050@0.0.1920.1050" timestamp="1577920102179" />
-    <state x="529" y="120" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1578203200114" />
+    <state x="529" y="120" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1578203290905" />
     <state x="-1808" y="100" width="1736" height="866" key="DirDiffDialog" timestamp="1577399165169">
       <screen x="-1920" y="9" width="1920" height="1050" />
     </state>
@@ -210,11 +217,11 @@
     </state>
     <state x="461" y="168" key="SettingsEditor/0.0.1920.1050/-1920.9.1920.1050@0.0.1920.1050" timestamp="1577570009485" />
     <state x="461" y="168" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1577497277448" />
-    <state x="552" y="259" key="Vcs.Push.Dialog.v2" timestamp="1578203203222">
+    <state x="552" y="259" key="Vcs.Push.Dialog.v2" timestamp="1578203294612">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="552" y="259" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1920.9.1920.1050@0.0.1920.1050" timestamp="1577920104515" />
-    <state x="552" y="259" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1578203203222" />
+    <state x="552" y="259" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1578203294612" />
     <state x="769" y="443" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578192233753">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
