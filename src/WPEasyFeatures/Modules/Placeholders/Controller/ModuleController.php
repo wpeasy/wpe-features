@@ -149,7 +149,7 @@ class ModuleController implements IWordPressModule {
 	}
 
 	static function add_tinymce_plugin( $plugin_array ) {
-		$plugin_array['policy_mce_button'] = ApplicationModel::$config['assetsURL'] .'/js/policy-mce-button.js';
+		//$plugin_array['policy_mce_button'] = ApplicationModel::$config['assetsURL'] .'/js/policy-mce-button.js';
 		return $plugin_array;
 	}
 }

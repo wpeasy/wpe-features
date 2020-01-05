@@ -61,6 +61,9 @@ class ModuleController implements IWordPressModule {
 			return 'Dynamic Featured Image is not installed or activated.';
 		}
 
+		//Scripts loaded in SC to not loaded unnecessarily
+		wp_enqueue_script('wpe-features-frontend');
+
 		$conf     = self::$moduleConfig['shortcodes']['wpe_dfi_slider'];
 		$callback = function ( $value ) {
 			return $value['default'];
@@ -79,6 +82,9 @@ class ModuleController implements IWordPressModule {
 		if ( ! class_exists( 'Dynamic_Featured_Image' ) ) {
 			return 'Dynamic Featured Image is not installed or activated.';
 		}
+
+        //Scripts loaded in SC to not loaded unnecessarily
+        wp_enqueue_script('wpe-features-frontend');
 
 		$conf     = self::$moduleConfig['shortcodes']['wpe_dfi_carousel'];
 		$callback = function ( $value ) {
