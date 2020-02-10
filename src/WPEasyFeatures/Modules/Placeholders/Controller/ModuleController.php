@@ -59,6 +59,11 @@ class ModuleController implements IWordPressModule {
 		}
 	}
 
+	static function wpe_year()
+    {
+        return date('Y');
+    }
+
 	/****************************
 	 * Shortcode callbacks
 	 */

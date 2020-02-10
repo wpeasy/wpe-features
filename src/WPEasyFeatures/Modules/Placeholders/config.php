@@ -76,7 +76,13 @@ return [
 			'description' => 'Your website URL',
 			'callback'    => $controllerClass . '::wpe_site_url',
 			'attributes'  => []
-		]
+		],
+        'wpe_year' => [
+            'enclosing'   => false,
+            'description' => 'Current Year',
+            'callback'    => $controllerClass . '::wpe_year',
+            'attributes'  => []
+        ]
 	],
 	'templates' => [
 		[
