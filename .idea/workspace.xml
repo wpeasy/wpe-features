@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a56fc053-97a8-4a96-9fab-8e54d0f140ab" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WPEasyFeatures/Modules/DynamicFeaturedImage/View/sliderView.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/WPEasyFeatures/Modules/DynamicFeaturedImage/View/sliderView.phtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wpe-features.php" beforeDir="false" afterPath="$PROJECT_DIR$/wpe-features.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +58,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="10.16.0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/assets/css" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/wpe-features.iml" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
   </component>
@@ -83,7 +87,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="2d5ecb07-c587-405d-9f1c-311a48385d66" name="Default Changelist" comment="" />
+      <changelist id="a56fc053-97a8-4a96-9fab-8e54d0f140ab" name="Default Changelist" comment="" />
       <created>1577398464214</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -100,6 +104,8 @@
       <workItem from="1577829834444" duration="3309000" />
       <workItem from="1577927129274" duration="30000" />
       <workItem from="1578192191019" duration="1554000" />
+      <workItem from="1578783610819" duration="1015000" />
+      <workItem from="1581300186499" duration="595000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1577398724733</created>
@@ -195,11 +201,11 @@
     <option name="LAST_COMMIT_MESSAGE" value="Working on Slick sliders" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="184" key="#Deployment" timestamp="1578192294381">
+    <state x="552" y="184" key="#Deployment" timestamp="1581300721484">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="552" y="184" key="#Deployment/0.0.1920.1050/-1920.9.1920.1050@0.0.1920.1050" timestamp="1577570018963" />
-    <state x="552" y="184" key="#Deployment/0.0.1920.1050@0.0.1920.1050" timestamp="1578192294381" />
+    <state x="552" y="184" key="#Deployment/0.0.1920.1050@0.0.1920.1050" timestamp="1581300721484" />
     <state x="690" y="281" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1577497472211">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -213,10 +219,11 @@
       <screen x="-1920" y="9" width="1920" height="1050" />
     </state>
     <state x="-1808" y="100" width="1736" height="866" key="DirDiffDialog/0.0.1920.1050/-1920.9.1920.1050@0.0.1920.1050" timestamp="1577399165169" />
-    <state x="740" y="280" key="FileChooserDialogImpl" timestamp="1577399155649">
+    <state x="740" y="280" key="FileChooserDialogImpl" timestamp="1581300717919">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="740" y="280" key="FileChooserDialogImpl/0.0.1920.1050/-1920.9.1920.1050@0.0.1920.1050" timestamp="1577399155649" />
+    <state x="740" y="280" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1581300717919" />
     <state x="672" y="242" key="MultipleFileMergeDialog" timestamp="1578192255619">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -240,10 +247,11 @@
     </state>
     <state x="656" y="257" width="607" height="536" key="find.popup/0.0.1920.1050/-1920.9.1920.1050@0.0.1920.1050" timestamp="1577918733569" />
     <state x="656" y="257" width="607" height="536" key="find.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1577922712245" />
-    <state x="741" y="256" key="ftp.server.browser" timestamp="1577398914663">
+    <state x="741" y="256" key="ftp.server.browser" timestamp="1581300655156">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="741" y="256" key="ftp.server.browser/0.0.1920.1050/-1920.9.1920.1050@0.0.1920.1050" timestamp="1577398914663" />
+    <state x="741" y="256" key="ftp.server.browser/0.0.1920.1050@0.0.1920.1050" timestamp="1581300655156" />
     <state x="816" y="419" key="publish.login" timestamp="1577408752138">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

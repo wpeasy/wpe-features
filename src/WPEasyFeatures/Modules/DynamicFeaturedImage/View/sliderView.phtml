@@ -2,11 +2,10 @@
 
 $uid = uniqid('wpe-slick-');
 //convert _ keys to CamelCase
-//WordPress shortcodes only accept attribute names with the _ separator, will not accept camel case. Slick attributes are CamelCase..
+//WordPress shortcodes only accept attribute names with the _ separator, it will not accept camel case. Slick attributes are CamelCase..
 //
 $slickAtts = [];
 if (!isset($atts['show_thumbs'])) $atts['show_thumbs'] = 'false';
-
 foreach ($atts as $att => $val) {
     //only atts that have been set
     //Converting Sting boolean and INT values to proper data types.
@@ -51,7 +50,6 @@ $slickJson = json_encode($slickAtts);
         $(document).ready(function () {
             $wpeSliders = $(selector).not('.slick-initialized');
             $wpeSliders.on('init', function () {
-                console.log(this);
                 $(this).removeClass('invisible');
             }).slick();
 

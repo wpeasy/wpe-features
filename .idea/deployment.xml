@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" autoUpload="On explicit save action" serverName="wpdev.wpevolve.net">
+  <component name="PublishConfigData" autoUpload="On explicit save action" serverName="michaelstuff">
     <serverData>
-      <paths name="wpdev.wpevolve.net">
+      <paths name="michaelstuff">
         <serverdata>
           <mappings>
-            <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/public_html/wp-content/plugins/wpe-features" local="$PROJECT_DIR$" web="/" />
           </mappings>
           <excludedPaths>
             <excludedPath local="true" path="$PROJECT_DIR$/.idea" />
-            <excludedPath local="true" path="$PROJECT_DIR$/composer.json" />
-            <excludedPath local="true" path="$PROJECT_DIR$/composer.lock" />
-            <excludedPath local="true" path="$PROJECT_DIR$/wpe-features.iml" />
             <excludedPath local="true" path="$PROJECT_DIR$/dev" />
+            <excludedPath local="true" path="$PROJECT_DIR$/composer.json" />
+            <excludedPath local="true" path="$PROJECT_DIR$/wpe-features.iml" />
           </excludedPaths>
         </serverdata>
       </paths>
