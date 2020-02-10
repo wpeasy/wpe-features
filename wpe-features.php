@@ -3,7 +3,7 @@
  * Plugin Name: WPEasy Features
  * Plugin URI:
  * Description: Common features for WP Easy clients
- * Version: 1.0.8
+ * Version: 1.0.9
  * Author: Alan Blair
  * Author URI:
  * Text Domain: wpeasy
