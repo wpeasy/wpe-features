@@ -3,7 +3,7 @@
  * Plugin Name: WPEasy Features
  * Plugin URI:
  * Description: Common features for WP Easy clients
- * Version: 1.0.12
+ * Version: 1.0.13
  * Author: Alan Blair
  * Author URI:
  * Text Domain: wpeasy
@@ -16,7 +16,7 @@ use WPEasyLibrary\WordPress\WPEasyApplication;
 
 require_once __DIR__ . '/vendor/autoload.php';
 $config = require __DIR__ . '/application.config.php';
-
+/*
 if ( is_admin() ) {
     $conf = $config['github'];
     $updater = new WPE_PluginUpdateFromGithub(__FILE__);
@@ -25,6 +25,7 @@ if ( is_admin() ) {
     $updater->authorize($conf['token']);
     $updater->initialize();
 }
+*/
 
 
 WPEasyApplication::init($config);

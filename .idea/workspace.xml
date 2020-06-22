@@ -1,18 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a56fc053-97a8-4a96-9fab-8e54d0f140ab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/src/WPEasyLibrary/WordPress/WPE_PluginUpdateFromGithub.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
+    <list default="true" id="a56fc053-97a8-4a96-9fab-8e54d0f140ab" name="Default Changelist" comment="Updated Guthub Updater">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application.config.php" beforeDir="false" afterPath="$PROJECT_DIR$/application.config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WPEasyFeatures/Modules/Placeholders/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/WPEasyFeatures/Modules/Placeholders/config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/src/WPEasyLibrary/WordPress/UpdateFromGithubController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/src/WPEasyLibrary/WordPress/WPEasyApplication.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/src/WPEasyLibrary/WordPress/WPEasyApplication.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/src/WPEasyLibrary/WordPress/WPE_PluginUpdateFromGithub.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/wpeasy/wpeasy-library/src/WPEasyLibrary/WordPress/WPE_PluginUpdateFromGithub.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wpe-features.php" beforeDir="false" afterPath="$PROJECT_DIR$/wpe-features.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -104,7 +96,7 @@
       <workItem from="1592692768103" duration="26000" />
       <workItem from="1592693735784" duration="1201000" />
       <workItem from="1592785700000" duration="2448000" />
-      <workItem from="1592792603881" duration="3415000" />
+      <workItem from="1592792603881" duration="6020000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1577398724733</created>
@@ -204,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581308040240</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Updated Guthub Updater">
+      <created>1592796171180</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1592796171180</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,13 +219,18 @@
     <MESSAGE value="Working on Slick sliders" />
     <MESSAGE value="Updated composer dependancies" />
     <MESSAGE value="Added wpe_year Shortcode" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added wpe_year Shortcode" />
+    <MESSAGE value="Updated Guthub Updater" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated Guthub Updater" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="183" key="#Deployment" timestamp="1592694090177">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="552" y="183" key="#Deployment/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1592694090177" />
+    <state x="528" y="93" key="CommitChangelistDialog2" timestamp="1592802308437">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="528" y="93" key="CommitChangelistDialog2/1920.0.1920.1050/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1592802308437" />
     <state x="740" y="279" key="FileChooserDialogImpl" timestamp="1592693983420">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -235,6 +239,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="514" y="248" key="NewPhpClassDialog/1920.0.1920.1050/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1592793633471" />
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1592796172829">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2/1920.0.1920.1050/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1592796172829" />
     <state x="667" y="258" width="585" height="534" key="find.popup" timestamp="1592203925529">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

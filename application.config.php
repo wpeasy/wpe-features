@@ -11,11 +11,6 @@ return [
 	'pluginURL'         => $pluginUrl,
 	'assetsURL'         => $pluginUrl . 'assets/',
 
-    'github'            => [
-        'token'     => '4ff920b775c011e9e5f3d2d50cf6fd626338fdc8',
-        'user'      => 'wpeasy',
-        'repo'      => 'wpe-features'
-    ],
 
 	//Modules Controllers to initialise
 	'modules'           => [

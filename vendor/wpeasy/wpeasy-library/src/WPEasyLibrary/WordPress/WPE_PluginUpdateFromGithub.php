@@ -47,6 +47,7 @@ class WPE_PluginUpdateFromGithub
 
             // Switch to HTTP Basic Authentication for GitHub API v3
             $curl = curl_init();
+            
 
 
             curl_setopt_array($curl, [
