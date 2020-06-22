@@ -3,7 +3,7 @@
  * Plugin Name: WPEasy Features
  * Plugin URI:
  * Description: Common features for WP Easy clients
- * Version: 1.0.10
+ * Version: 1.0.12
  * Author: Alan Blair
  * Author URI:
  * Text Domain: wpeasy
@@ -11,17 +11,22 @@
 
 namespace WPEasyFeaturesPlugin;
 
-use WPEasyLibrary\WordPress\UpdateFromGithubController;
+use WPEasyLibrary\WordPress\WPE_PluginUpdateFromGithub;
 use WPEasyLibrary\WordPress\WPEasyApplication;
 
 require_once __DIR__ . '/vendor/autoload.php';
+$config = require __DIR__ . '/application.config.php';
 
 if ( is_admin() ) {
-    new UpdateFromGithubController( __FILE__, 'wpeasy', "wpe-features" );
-
+    $conf = $config['github'];
+    $updater = new WPE_PluginUpdateFromGithub(__FILE__);
+    $updater->set_username($conf['user']);
+    $updater->set_repository($conf['repo']);
+    $updater->authorize($conf['token']);
+    $updater->initialize();
 }
 
-$config = require __DIR__ . '/application.config.php';
+
 WPEasyApplication::init($config);
 WPEasyApplication::registerLoadedPlugin($config);
 

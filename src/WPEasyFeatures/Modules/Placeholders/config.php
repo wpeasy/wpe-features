@@ -10,6 +10,7 @@ return [
 	'moduleDescription' => 'Adds shortcodes for variable placeholders',
 	'modulePrefix'      => 'wpe_placeholder',
 
+
 	'settings' =>
 		[
 			'optionName' => 'wpe_placeholders',
